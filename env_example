@@ -1,0 +1,16 @@
+# General
+BOT_TOKEN=<TELEGRAM_BOT_TOKEN>
+TELEGRAM_USER_ID=<TELEGRAM_USER_ID>
+OLLAMA_HOST=http://localhost:11434
+QDRANT_HOST=localhost
+QDRANT_PORT=6333
+COLLECTION_NAME=autoai_memory
+LLM_MODEL=qwen3.5:9b-q8_0
+EMBED_MODEL=qwen3-embedding:4b-q8_0
+
+# Docker
+DOCKER_CONTAINER_NAME=autoai_sandbox
+DOCKER_IMAGE=autoai_sandbox:latest
+DOCKER_WORKDIR=/workspace
+DOCKER_VOLUME_HOST=./workspace
+DOCKER_VOLUME_CONTAINER=/workspace

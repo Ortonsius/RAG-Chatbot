@@ -1,0 +1,11 @@
+aiogram
+python-dotenv
+qdrant-client
+ollama
+pypdf
+python-docx
+openpyxl
+python-pptx
+beautifulsoup4
+lxml
+docker
